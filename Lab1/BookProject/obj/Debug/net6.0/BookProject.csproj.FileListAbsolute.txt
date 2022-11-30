@@ -1,0 +1,14 @@
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\bin\Debug\net6.0\BookProject.deps.json
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\bin\Debug\net6.0\BookProject.runtimeconfig.json
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\bin\Debug\net6.0\BookProject.dll
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\bin\Debug\net6.0\BookProject.pdb
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\obj\Debug\net6.0\BookProject.csproj.AssemblyReference.cache
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\obj\Debug\net6.0\BookProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\obj\Debug\net6.0\BookProject.AssemblyInfoInputs.cache
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\obj\Debug\net6.0\BookProject.AssemblyInfo.cs
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\obj\Debug\net6.0\BookProject.csproj.CoreCompileInputs.cache
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\obj\Debug\net6.0\BookProject.dll
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\obj\Debug\net6.0\refint\BookProject.dll
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\obj\Debug\net6.0\BookProject.pdb
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\obj\Debug\net6.0\BookProject.genruntimeconfig.cache
+C:\Users\josh4\OneDrive\Bureau\Database\BookProject\obj\Debug\net6.0\ref\BookProject.dll
