@@ -1,0 +1,12 @@
+D:\Lab3.DataAccessLayer\obj\Debug\net6.0\Lab3.DataAccessLayer.csproj.AssemblyReference.cache
+D:\Lab3.DataAccessLayer\obj\Debug\net6.0\Lab3.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lab3.DataAccessLayer\obj\Debug\net6.0\Lab3.DataAccessLayer.AssemblyInfoInputs.cache
+D:\Lab3.DataAccessLayer\obj\Debug\net6.0\Lab3.DataAccessLayer.AssemblyInfo.cs
+D:\Lab3.DataAccessLayer\obj\Debug\net6.0\Lab3.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Lab3.DataAccessLayer\bin\Debug\net6.0\Lab3.DataAccessLayer.deps.json
+D:\Lab3.DataAccessLayer\bin\Debug\net6.0\Lab3.DataAccessLayer.dll
+D:\Lab3.DataAccessLayer\bin\Debug\net6.0\Lab3.DataAccessLayer.pdb
+D:\Lab3.DataAccessLayer\obj\Debug\net6.0\Lab3.DataAccessLayer.dll
+D:\Lab3.DataAccessLayer\obj\Debug\net6.0\refint\Lab3.DataAccessLayer.dll
+D:\Lab3.DataAccessLayer\obj\Debug\net6.0\Lab3.DataAccessLayer.pdb
+D:\Lab3.DataAccessLayer\obj\Debug\net6.0\ref\Lab3.DataAccessLayer.dll
