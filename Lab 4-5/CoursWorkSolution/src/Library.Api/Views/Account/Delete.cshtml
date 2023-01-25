@@ -1,0 +1,26 @@
+﻿@using Library.DataAccess.Models;
+@model User
+
+<form asp-controller="Account" asp-action="Delete" method="post">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Delete</h2>
+			<hr class="bg-primary"/>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Email" class="form-label">Email :</label>
+			<input asp-for="Email" disabled class="form-control" placeholder="Enter The Email of the Street" />
+			<span asp-validation-for="Email" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="UserName" class="form-label">UserName :</label>
+			<input asp-for="UserName" disabled class="form-control" placeholder="Enter The UserName of the Street" />
+			<span asp-validation-for="UserName" class="text-danger"></span>
+		</div>
+
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<button type="submit" class="btn btn-info" style="width:158px;">Submit</button>
+		<a asp-controller="Home" asp-action="Index" class="btn btn-secondary" style="width:150px;">Back to Home</a>
+	</div>
+</form>

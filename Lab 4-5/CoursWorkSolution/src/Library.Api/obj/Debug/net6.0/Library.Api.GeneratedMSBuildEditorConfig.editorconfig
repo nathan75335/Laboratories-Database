@@ -1,0 +1,129 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Library.Api
+build_property.RootNamespace = Library.Api
+build_property.ProjectDir = D:\CoursWorkSolution\src\Library.Api\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\CoursWorkSolution\src\Library.Api
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Account/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Book/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Book/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Book/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Book/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Book/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/BorrowBook/BookUserLate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93Qm9va1xCb29rVXNlckxhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/BorrowBook/Borrow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93Qm9va1xCb3Jyb3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/BorrowBook/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93Qm9va1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/BorrowBook/_GridView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93Qm9va1xfR3JpZFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/EditionHouse/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdGlvbkhvdXNlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/EditionHouse/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdGlvbkhvdXNlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/EditionHouse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdGlvbkhvdXNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/EditionHouse/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdGlvbkhvdXNlXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Worker/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2VyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Worker/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2VyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Worker/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Worker/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2VyXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CoursWorkSolution/src/Library.Api/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jw41lwiaay

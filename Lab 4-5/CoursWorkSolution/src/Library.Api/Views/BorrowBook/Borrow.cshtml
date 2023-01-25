@@ -1,0 +1,59 @@
+﻿@using Library.BusinessLogic.DTO_s;
+@model BorrowBookDto
+
+<form  asp-controller="BorrowBook" asp-action="Borrow" method="post">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Borrow Book Worker</h2>
+			<hr class="bg-primary" />
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="ReturnDate" class="form-label">Return Date :</label>
+			<input asp-for="ReturnDate" class="form-control" placeholder="Enter The Return Date of the book" />
+			<span asp-validation-for="ReturnDate" class="text-danger"></span>
+		</div>
+
+		@{
+			var workers = ViewBag.Workers;
+		}
+
+		<div class="mb-3">
+			<select class="form-select" asp-for="WorkerId">
+				@{
+					foreach (var worker in workers)
+					{
+						<option value="@worker.Id">@worker.Name  @worker.Position.Name</option>
+					}
+				}
+
+			</select>
+			<span asp-validation-for="WorkerId" class="text-danger"></span>
+		</div>
+
+		@{
+			var data = ViewBag.BookId;
+			int bookId = Convert.ToInt32(data);
+		}
+		<div class="mb-3">
+			<select class="form-select" disabled asp-for="BookId">
+				<option value="@bookId" selected  >@bookId</option>
+			</select>
+		</div>
+
+
+
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<button type="submit" class="btn btn-info" style="width:158px;">Create</button>
+		<a asp-controller="Book" asp-action="Index" class="btn btn-secondary" style="width:158px;">Back to Home</a>
+	</div>
+</form>
+
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}
+
+

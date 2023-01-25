@@ -1,0 +1,43 @@
+﻿@model WorkerModel
+
+<form asp-controller="Worker" asp-action="Delete" method="post">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Delete Worker</h2>
+			<hr class="bg-primary" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Name" class="form-label">Name :</label>
+			<input asp-for="Name" class="form-control" disabled placeholder="Enter The Name of the worker" />
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="Email" class="form-label">Email :</label>
+			<input asp-for="Email" class="form-control" disabled placeholder="Enter The Email of the worker" />
+			<span asp-validation-for="Email" class="text-danger"></span>
+		</div>
+
+
+		
+		<div class="mb-3">
+			<select class="form-select" disabled asp-for="PositionId">
+				<option value="@Model.PositionId">@Model.PositionName</option>
+			</select>
+			<span asp-validation-for="PositionId" class="text-danger"></span>
+		</div>
+
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<button type="submit" class="btn btn-danger" style="width:158px;">Delete</button>
+		<a asp-controller="Worker" asp-action="Index" class="btn btn-secondary" style="width:158px;">Back to Home</a>
+	</div>
+</form>
+
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}
+
+

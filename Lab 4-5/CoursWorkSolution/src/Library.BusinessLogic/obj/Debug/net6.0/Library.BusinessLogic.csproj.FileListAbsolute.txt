@@ -1,0 +1,15 @@
+D:\CoursWorkSolution\src\Library.BusinessLogic\bin\Debug\net6.0\Library.BusinessLogic.deps.json
+D:\CoursWorkSolution\src\Library.BusinessLogic\bin\Debug\net6.0\Library.BusinessLogic.dll
+D:\CoursWorkSolution\src\Library.BusinessLogic\bin\Debug\net6.0\Library.BusinessLogic.pdb
+D:\CoursWorkSolution\src\Library.BusinessLogic\bin\Debug\net6.0\Library.DataAccess.dll
+D:\CoursWorkSolution\src\Library.BusinessLogic\bin\Debug\net6.0\Library.DataAccess.pdb
+D:\CoursWorkSolution\src\Library.BusinessLogic\obj\Debug\net6.0\Library.BusinessLogic.csproj.AssemblyReference.cache
+D:\CoursWorkSolution\src\Library.BusinessLogic\obj\Debug\net6.0\Library.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\CoursWorkSolution\src\Library.BusinessLogic\obj\Debug\net6.0\Library.BusinessLogic.AssemblyInfoInputs.cache
+D:\CoursWorkSolution\src\Library.BusinessLogic\obj\Debug\net6.0\Library.BusinessLogic.AssemblyInfo.cs
+D:\CoursWorkSolution\src\Library.BusinessLogic\obj\Debug\net6.0\Library.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\CoursWorkSolution\src\Library.BusinessLogic\obj\Debug\net6.0\Library.BusinessLogic.csproj.CopyComplete
+D:\CoursWorkSolution\src\Library.BusinessLogic\obj\Debug\net6.0\Library.BusinessLogic.dll
+D:\CoursWorkSolution\src\Library.BusinessLogic\obj\Debug\net6.0\refint\Library.BusinessLogic.dll
+D:\CoursWorkSolution\src\Library.BusinessLogic\obj\Debug\net6.0\Library.BusinessLogic.pdb
+D:\CoursWorkSolution\src\Library.BusinessLogic\obj\Debug\net6.0\ref\Library.BusinessLogic.dll

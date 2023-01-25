@@ -1,0 +1,33 @@
+﻿
+<h1>Books</h1>
+<a asp-action="Create" asp-controller="Home" class="btn btn-primary" style="align-items:end;width:100px; height:50">Add Book</a>
+@model List<BookDto>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Name Of Genre</th>
+            <th scope="col">Description of Genre</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        
+            @foreach (var book in Model)
+            {
+                var bookLooked = @book.Genres.FirstOrDefault();
+
+                <tr>
+                
+                    <th scope="row">@book.Id</th>
+                    <td>@book.Name</td>
+                    <td>@bookLooked.Name</td>
+                    <td>@bookLooked.Description</td>
+
+                </tr>
+
+            }
+    </tbody>
+</table>

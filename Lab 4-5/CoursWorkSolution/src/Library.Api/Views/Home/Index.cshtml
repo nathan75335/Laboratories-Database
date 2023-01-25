@@ -1,0 +1,39 @@
+﻿@model List<Library.BusinessLogic.DTO_s.BookDto> 
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center d-sm-inline-flex">
+   <div class="card-group">
+
+        @foreach (var book in Model)
+        {
+            <div class="card m-3" style="width: 18rem;">
+                @* <img class="card-img-top" asp-append-version="true" src="~/@book.PhotoPath" width="100" height="100" alt=""> *@
+                <div class="card-body">
+                    <h5 class="card-title">@book.Name</h5>
+                    <p class="card-text">
+                        Writen by @book.Author and edited by
+                        edition @book.EditionHouseName in @book.EditionYear
+                    </p>
+
+                    @if (User.IsInRole("User"))
+                    {
+                        <a asp-action="Borrow" asp-controller="BorrowBook" asp-route-id="@book.Id" class="btn btn-secondary">Borrow</a>
+                    }
+
+                    <a asp-action="Details" asp-controller = "Book" asp-route-id="@book.Id" class="btn btn-primary">Details</a>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Borrow" asp-controller="BorrowBook" asp-route-id="@book.Id" class="btn btn-danger">Delete</a>
+                        <a asp-action="Borrow" asp-controller="BorrowBook" asp-route-id="@book.Id" class="btn btn-secondary">Update</a>
+                    }
+                </div>
+            </div>
+           
+        }
+   </div>
+   
+</div>

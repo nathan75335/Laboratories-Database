@@ -1,0 +1,107 @@
+﻿@model BorrowModelView
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">The Order of Library</h2>
+        </div>
+        <div class="col-6 d-flex p-2 justify-content-end">
+           
+            <div class="form-inline pull-rigth">
+                <form  method="get" asp-action="Index" asp-controller="BorrowBook">
+                    <label  >Author :</label>
+                    <input type="text" class="form-control" asp-for="Name" placeholder="Enter the genre" />
+                    <label >Genre :</label>
+                    <select name="genre" class="form-control" asp-items="@Model.Genres">
+                        
+                    </select>
+                    <button type="submit" class="btn btn-primary" >Submit</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<hr class="bg-primary"/>
+<div id="gridBooks">
+    <table class="table table-bordered table-striped" style="width:100%;">
+            <thead>
+                <tr>
+                    <th>Name Of Book</th>
+                    <th>Name of User</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Given Date</th>
+                    <th>Return Date</th>
+                    <th>Worker</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            @{
+                if (Model.Books.Count != 0)
+                {
+                
+                    @foreach (var borrow in Model.Books)
+                    {
+                        <tr>
+                            <td>@borrow.Book.Name</td>
+                            <td>@borrow.User.LastName @borrow.User.FirstName</td>
+                            <td>@borrow.Book.Author</td>
+                            <td>@borrow.Book.Genre.Name</td>
+                            <td>@borrow.GivenDate</td>
+                            <td>@borrow.ReturnDate</td>
+                            <td>@borrow.Worker.Name</td>
+                            <td>
+                                <div class="w-75 btn-group" role="group">
+                                    <a asp-controller="BorrowBook" asp-action="Delete" class="btn btn-danger" asp-route-id="@borrow.Id">
+                                        <i class="bi bi-trash3-fill"></i>&nbsp;Delete
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4" class="text-center">
+                            No Record Found! 
+                        </td>
+                    </tr>
+                }
+            }
+            </tbody>
+        </table>
+
+</div>
+
+@* <script> *@
+@*         $(() =>{ *@
+@*             getBooks(); *@
+@*             $("#searchInput").on('keyup', ()=>{ *@
+@*                  getBooks(); *@
+@*             }) *@
+@*         }); *@
+@* *@
+@*         function getBooks(){ *@
+@*             $.ajax({ *@
+@*                 url: '@Url.Action("SearchBook", "BorrowBook")', *@
+@*                 dataType: 'html', *@
+@*                 method : 'GET', *@
+@*             data: {SearchBook : $("#searchInput").val() }, *@
+@*                 success : function (res){ *@
+@*                     $("#gridBooks").html('').html(res); *@
+@*                 }, *@
+@*                 error: function (res){ *@
+@*                     console.log(res) *@
+@*                 } *@
+@*             }) *@
+@*         } *@
+@* </script> *@
+@* *@

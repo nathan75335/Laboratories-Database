@@ -1,0 +1,14 @@
+D:\CoursWorkSolution\src\Library.DataAccess\bin\Debug\net6.0\Library.DataAccess.deps.json
+D:\CoursWorkSolution\src\Library.DataAccess\bin\Debug\net6.0\Library.DataAccess.runtimeconfig.json
+D:\CoursWorkSolution\src\Library.DataAccess\bin\Debug\net6.0\Library.DataAccess.dll
+D:\CoursWorkSolution\src\Library.DataAccess\bin\Debug\net6.0\Library.DataAccess.pdb
+D:\CoursWorkSolution\src\Library.DataAccess\obj\Debug\net6.0\Library.DataAccess.csproj.AssemblyReference.cache
+D:\CoursWorkSolution\src\Library.DataAccess\obj\Debug\net6.0\Library.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\CoursWorkSolution\src\Library.DataAccess\obj\Debug\net6.0\Library.DataAccess.AssemblyInfoInputs.cache
+D:\CoursWorkSolution\src\Library.DataAccess\obj\Debug\net6.0\Library.DataAccess.AssemblyInfo.cs
+D:\CoursWorkSolution\src\Library.DataAccess\obj\Debug\net6.0\Library.DataAccess.csproj.CoreCompileInputs.cache
+D:\CoursWorkSolution\src\Library.DataAccess\obj\Debug\net6.0\Library.DataAccess.dll
+D:\CoursWorkSolution\src\Library.DataAccess\obj\Debug\net6.0\refint\Library.DataAccess.dll
+D:\CoursWorkSolution\src\Library.DataAccess\obj\Debug\net6.0\Library.DataAccess.pdb
+D:\CoursWorkSolution\src\Library.DataAccess\obj\Debug\net6.0\Library.DataAccess.genruntimeconfig.cache
+D:\CoursWorkSolution\src\Library.DataAccess\obj\Debug\net6.0\ref\Library.DataAccess.dll

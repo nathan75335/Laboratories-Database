@@ -1,0 +1,52 @@
+﻿@using Library.BusinessLogic.DTO_s;
+@model List<BorrowBookDto>
+
+
+<div >
+    <table class="table table-bordered table-striped" style="width:100%;">
+        <thead>
+            <tr>
+                <th>Name Of Book</th>
+                <th>Name of User</th>
+                <th>Given Date</th>
+                <th>Return Date</th>
+                <th>Worker</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        @{
+            if (Model.Count != 0)
+            {
+                @foreach (var borrow in Model)
+                {
+                    <tr>
+                        <td>@borrow.Book.Name</td>
+                        <td>@borrow.User.LastName @borrow.User.FirstName</td>
+                        <td>@borrow.GivenDate</td>
+                        <td>@borrow.ReturnDate</td>
+                        <td>@borrow.Worker.Name</td>
+                        <td>
+                            <div class="w-75 btn-group" role="group">
+                                <a asp-controller="BorrowBook" asp-action="" class="btn btn-danger" asp-route-id="@borrow.Id">
+                                    <i class="bi bi-trash3-fill"></i>&nbsp;Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3" class="text-center">
+                        No Record Found! 
+                    </td>
+                </tr>
+            }
+        }
+        </tbody>
+    </table>
+
+</div>
+

@@ -1,0 +1,43 @@
+﻿@using Library.BusinessLogic.DTO_s;
+@model EditionHouseDto
+
+<form asp-controller="EditionHouse" asp-action="Update" method="post">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Update</h2>
+			<hr class="bg-primary" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Name" class="form-label">Name :</label>
+			<input asp-for="Name" class="form-control" placeholder="Enter The Name of the Edition House" />
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="City" class="form-label">City :</label>
+			<input asp-for="City" class="form-control" placeholder="Enter The City of the Edition House" />
+			<span asp-validation-for="City" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="Adress" class="form-label">Adress :</label>
+			<input asp-for="Adress" class="form-control" placeholder="Enter The Adress of the Edition House" />
+			<span asp-validation-for="Adress" class="text-danger"></span>
+		</div>
+
+
+
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<button type="submit" class="btn btn-info" style="width:158px;">Update</button>
+		<a asp-controller="EditionHouse" asp-action="Index" class="btn btn-secondary" style="width:158px;">Back to Home</a>
+	</div>
+</form>
+
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}
+
+

@@ -1,0 +1,98 @@
+﻿@model Library.BusinessLogic.DTO_s.BookDto
+
+@{
+	ViewBag.Title = "title";
+	Layout = "_Layout";
+}
+
+<form asp-controller="Book" asp-action="Edit" method="post">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Update Book</h2>
+			<hr class="bg-primary" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Name" class="form-label">Name :</label>
+			<input asp-for="Name"  class="form-control" placeholder="Enter The Name of the Book" />
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="Author" class="form-label">Author :</label>
+			<input asp-for="Author"  class="form-control" placeholder="Enter The Author of the Book" />
+			<span asp-validation-for="Author" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="Price" class="form-label">Price :</label>
+			<input asp-for="Price"  class="form-control" placeholder="Enter The Price of the Book" />
+			<span asp-validation-for="Price" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="EditionYear" class="form-label">EditionYear :</label>
+			<input asp-for="EditionYear"  class="form-control" placeholder="Enter The EditionYear of the Book" />
+			<span asp-validation-for="EditionYear" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="RegistrationNumber" class="form-label">RegistrationNumber :</label>
+			<input asp-for="RegistrationNumber"  class="form-control" placeholder="Enter The RegistrationNumber of the Book" />
+			<span asp-validation-for="RegistrationNumber" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="PhotoPath" class="form-label">Photo :</label>
+			<input type="file" asp-for="PhotoPath"  class="form-control" placeholder="Enter The Picture of the Book" />
+
+			<span asp-validation-for="PhotoPath" class="text-danger"></span>
+		</div>
+
+
+		@{
+			var data = ViewBag.EditionHouses;
+		}
+		<div class="mb-3">
+			<label asp-for="EditionHouseId" class="form-label">Edition House  :</label>
+			<select class="form-select"  asp-for="EditionHouseId">
+				@{
+					foreach (var edition in data)
+					{
+						<option value="@edition.Id">@edition.Name</option>
+					}
+				}
+
+			</select>
+			<span asp-validation-for="EditionHouseId" class="text-danger"></span>
+		</div>
+
+		@{
+			var genres = ViewBag.Genres;
+		}
+		<div class="mb-3">
+			<label asp-for="GenreId" class="form-label">Genre :</label>
+			<select class="form-select"  asp-for="GenreId">
+				@{
+					foreach (var genre in genres)
+					{
+						<option value="@genre.Id">@genre.Name</option>
+					}
+				}
+
+			</select>
+			<span asp-validation-for="GenreId" class="text-danger"></span>
+		</div>
+
+
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<button type="submit" class="btn btn-info" style="width:158px;">Edit</button>
+		<a asp-controller="Book" asp-action="Index" class="btn btn-secondary" style="width:158px;">Back to Home</a>
+	</div>
+</form>
+
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}

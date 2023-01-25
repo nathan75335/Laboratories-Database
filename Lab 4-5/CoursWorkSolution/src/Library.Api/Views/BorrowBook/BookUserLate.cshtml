@@ -1,0 +1,56 @@
+﻿@model System.Collections.Generic.List<Library.DataAccess.Models.User>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">The Order of Library</h2>
+        </div>
+        
+    </div>
+</div>
+<hr class="bg-primary"/>
+<div id="gridBooks">
+    <table class="table table-bordered table-striped" style="width:100%;">
+            <thead>
+                <tr>
+                    <th>Name of Email</th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>UserName</th>
+                     <th>PhoneNumber</th>
+                </tr>
+            </thead>
+            <tbody>
+            @{
+                if (Model.Count != 0)
+                {
+                
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+                            <td>@user.Email</td>
+                            <td>@user.LastName </td>
+                            <td>@user.LastName</td>
+                            <td>@user.UserName</td>
+                           <td>@user.PhoneNumber</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            No Record Found! 
+                        </td>
+                    </tr>
+                }
+            }
+            </tbody>
+        </table>
+
+</div>

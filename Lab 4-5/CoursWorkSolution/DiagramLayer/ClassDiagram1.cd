@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Library.BusinessLogic.DTO_s.BookDto" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.BusinessLogic.DTO_s.BorrowBookDto" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.BusinessLogic.DTO_s.EditionHouseDto" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.BusinessLogic.Exceptions.AlreadyExistException" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.BusinessLogic.Exceptions.NotFoundException" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.BusinessLogic.Services.AccountService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.BusinessLogic.Services.BookService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.BusinessLogic.Services.EditionHouseService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.BusinessLogic.Services.OrderService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.Api.Controllers.AccountController" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.Api.Controllers.BorrowBookController" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.Api.Controllers.EditionHouseController" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.Api.Controllers.HomeController" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.Api.Controllers.WorkerController" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.Api.Project.Controllers.BookController" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.Api.Extensions.ApplicationDependenciesConfiguration" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.Api.Models.BorrowModelView" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.Api.Models.ErrorViewModel" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.Api.Models.LoginModel" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.Api.Models.RegisterModel" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.Api.Models.WorkerModel" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.Api.Profiles.BookProfile" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.SeedData.SeedDataAdministrator" Collapsed="true">
+    <Position X="8.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.SeedData.SeedDataSexe" Collapsed="true">
+    <Position X="10.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.SeedData.SeedGenresData" Collapsed="true">
+    <Position X="0.75" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.SeedData.SeedPositionData" Collapsed="true">
+    <Position X="2.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.SeedData.SeedRoles" Collapsed="true">
+    <Position X="5" Y="9.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.Models.Book" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.Models.BorrowBook" Collapsed="true">
+    <Position X="0.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.Models.EditionHouse" Collapsed="true">
+    <Position X="5" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.Models.Genre" Collapsed="true">
+    <Position X="8.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.Models.Position" Collapsed="true">
+    <Position X="0.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.Models.Role" Collapsed="true">
+    <Position X="5" Y="8.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.Models.User" Collapsed="true">
+    <Position X="6.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.Models.Worker" Collapsed="true">
+    <Position X="10.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.Repositories.BookRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.DataAccess.Repositories.BorrowBookRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.DataAccess.Repositories.EditionHouseRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.DataAccess.Repositories.GenreRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.DataAccess.Repositories.PositionRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="8.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.DataAccess.Repositories.SaveChangesRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.DataAccess.Repositories.WorkerRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.DataAccess.Configurations.BookBorrowConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.DataAccess.Configurations.BookConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Library.DataAccess.Configurations.UserConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.DataAccess.Configurations.WorkerConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.DataAccess.Extensions.AppDependenciesConfiguration" Collapsed="true">
+    <Position X="0.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Library.DataAccess.BookContext" Collapsed="true">
+    <Position X="8.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Library.BusinessLogic.Services.IAccountService" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Library.BusinessLogic.Services.IBookService" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Library.BusinessLogic.Services.IEditionHouseService" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Library.BusinessLogic.Services.IOrderService" Collapsed="true">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Library.DataAccess.Repositories.IBookRepository" Collapsed="true">
+    <Position X="1.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Library.DataAccess.Repositories.IBorrowBookRepository" Collapsed="true">
+    <Position X="3.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Library.DataAccess.Repositories.IEditionHouseRepository" Collapsed="true">
+    <Position X="5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Library.DataAccess.Repositories.IGenreRepository" Collapsed="true">
+    <Position X="6.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Library.DataAccess.Repositories.IPositionRepository" Collapsed="true">
+    <Position X="8.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Library.DataAccess.Repositories.ISaveChangesRepository" Collapsed="true">
+    <Position X="10.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Library.DataAccess.Repositories.IWorkerRepository" Collapsed="true">
+    <Position X="1.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

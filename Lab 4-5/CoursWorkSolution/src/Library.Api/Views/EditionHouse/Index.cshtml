@@ -1,0 +1,54 @@
+﻿@using Library.BusinessLogic.DTO_s;
+@model List<EditionHouseDto>
+
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">The Edition Houses</h2>
+        </div>
+        <div class="col-6 d-flex p-2 justify-content-end">
+            <a asp-controller="EditionHouse" asp-action="Create" class="btn btn-info d-flex p-2 justify-content-end">
+                <i class="bi bi-plus-circle pl-1"></i>&nbsp;Create New Edition House
+            </a>
+            
+        </div>
+    </div>
+</div>
+<hr class="bg-primary"/>
+<table class="table table-bordered table-striped" style="width:100%;">
+    <thead>
+        <tr>
+            <th>Name Of Edition House</th>
+            <th>City</th>
+            <th>Adress</th>
+            <th>Date Of Publication</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody >
+        @foreach(var edition in Model){
+            <tr>
+                <td>@edition.Name</td>
+                <td>@edition.City</td>
+                <td>@edition.Adress</td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="EditionHouse" asp-action="Update" class="btn btn-primary" asp-route-id="@edition.Id">
+                            <i class="bi bi-pencil-square"></i>&nbsp;Edit
+                        </a>
+                        <a asp-controller="EditionHouse" asp-action="Delete" class="btn btn-danger" asp-route-id="@edition.Id">
+                            <i class="bi bi-trash3-fill"></i>&nbsp;Delete
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

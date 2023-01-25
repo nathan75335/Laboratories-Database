@@ -1,0 +1,21 @@
+﻿@using Library.BusinessLogic.DTO_s;
+@model BookDto
+
+<div class="card">
+    <div class="card-header">
+        <img src="~/book.jpg" />
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text">
+            This book as a genre of @Model.GenreName that talks about @Model.GenreDescription.
+            it was writen by @Model.Author in @Model.EditionYear.
+            And was edited by the edition house @Model.EditionHouseName .
+            This edition house is situated in the city of @Model.EditionHouseCity.
+            This book cost @Math.Round(@Model.Price, 2) $
+        </p>
+        <a asp-controller="BorrowBook" asp-action="Borrow" asp-route-did="@Model.Id"></a>
+    </div>
+
+</div>
+

@@ -1,0 +1,62 @@
+﻿@model WorkerModel
+
+<form asp-controller="Worker" asp-action="Update" method="post">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Update Worker</h2>
+			<hr class="bg-primary" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Name" class="form-label">Name :</label>
+			<input asp-for="Name" class="form-control" placeholder="Enter The Name of the worker" />
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="Email" class="form-label">Email :</label>
+			<input asp-for="Email" class="form-control" placeholder="Enter The Email of the worker" />
+			<span asp-validation-for="Email" class="text-danger"></span>
+		</div>
+
+
+
+	</div>
+
+
+	@{
+		var data = ViewBag.Positions;
+	}
+	<div class="mb-3">
+		<select class="form-select" asp-for="PositionId">
+			@{
+				foreach (var position in data)
+				{
+					if(position.Id == Model.PositionId)
+					{
+						<option selected value="@position.Id">@position.Name</option>
+					}
+					else
+					{
+						<option value="@position.Id">@position.Name</option>
+					}
+
+				}
+			}
+
+		</select>
+		<span asp-validation-for="PositionId" class="text-danger"></span>
+	</div>
+
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<button type="submit" class="btn btn-info" style="width:158px;">Update</button>
+		<a asp-controller="Worker" asp-action="Index" class="btn btn-secondary" style="width:158px;">Back to Home</a>
+</form>
+
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}
+
+
